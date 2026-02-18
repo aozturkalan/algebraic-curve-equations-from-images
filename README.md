@@ -12,8 +12,8 @@ where $F(x,y)$ is a polynomial of degree $d$.
 
 The project explores two fundamentally different paradigms:
 
-1. Learning-based equation recovery (Generating Equations)
-2. Classical algebraic reconstruction (Classical Ways)
+1. Learning-based equation recovery 
+2. Algebraic reconstruction
 
 The long-term goal is to systematically study how curve degree, representation, and loss formulation affect recoverability from images.
 
@@ -23,20 +23,20 @@ The long-term goal is to systematically study how curve degree, representation, 
 ```text
 algebraic-curve-equations-from-images/
 
-├── generating_equations/
+├── learning_based/
 │   ├── quadratic/
 │   ├── cubic/
 │   ├── quartic/
 │   └── higher_degree/
 │
-└── classical_ways/
+└── analytical_methods/
     ├── quadratic/
     └── cubic/
 ```
 
 ---
 
-## 1️⃣ Generating Equations (Learning-Based)
+## 1️⃣ Learning-Based
 
 This approach uses neural networks to directly regress polynomial coefficients from rendered curve images.
 
@@ -57,7 +57,7 @@ The objective is not to provide a single “best version,” but to compare mode
 
 ---
 
-## 2️⃣ Classical Ways (Analytical Reconstruction)
+## 2️⃣ Analytical Methods
 
 This branch investigates reconstruction without machine learning.
 
