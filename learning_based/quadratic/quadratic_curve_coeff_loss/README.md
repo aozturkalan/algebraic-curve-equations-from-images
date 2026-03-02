@@ -101,3 +101,19 @@ This experiment serves as a baseline for comparison with:
 
 The goal is not to produce a final model, but to provide a controlled baseline for structured comparison.
 
+## Example Results
+
+### Successful Recovery
+
+Ground truth (black) vs predicted curve (red):
+
+![Success](assets/example_success_overlay.png)
+
+---
+
+### Failure Case (Type Confusion)
+
+Example where discriminant sign is mispredicted:
+
+![Failure](assets/example_failure_overlay.png)
+
