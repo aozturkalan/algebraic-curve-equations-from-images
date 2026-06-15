@@ -211,3 +211,5 @@ dataset/
 random_test/
 random_test_set/
 
+# macOS
+.DS_Store
