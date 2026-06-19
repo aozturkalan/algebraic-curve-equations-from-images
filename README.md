@@ -39,6 +39,7 @@ algebraic-curve-equations-from-images/
 
 ├── quadratic/
 │
+│   ├── quadratic_dataset/
 │   ├── learning_based/
 │   │   ├── coefficient_loss/
 │   │   ├── geometric_loss/
